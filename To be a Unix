@@ -1,0 +1,15 @@
+1. to check the history command line
+- history | less
+- Ctrl + R
+- Ctrl + P , !!, !-1 : repreat last command 
+- check the sequence of a certain commond line, then !nth to execute the history cli
+
+2. set vim editor colorful
+vi ~/.vimrc OR
+
+cp /usr/share/vim/vimrc ~/.vimrc 
+edit .vimrc 
+add 'syntax on' 'syntax enable'
+
+3. show id of user 
+id -u usernamehi
